@@ -4,14 +4,11 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 export default component$(() => {
   return (
     <>
-    <div>
+    <main class="w-100 h-screen bg-spotify-hero bg-center brightness-50">
       <div>
-      <h1>Home page</h1>
+        <h1 class="text-white font-bold">ESTE ES MI HOME</h1>
       </div>
-      <div class="w-screen">
-        <img src="https://helios-i.mashable.com/imagery/articles/050bXhdmNaL9bDGAINptcrL/hero-image.fill.size_1200x1200.v1617973265.jpg" alt="Spotify hero image"/>
-      </div>
-    </div>
+    </main>
     </>
   );
 });
